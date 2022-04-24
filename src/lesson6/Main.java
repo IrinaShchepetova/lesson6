@@ -3,18 +3,18 @@ package lesson6;
 public class Main {
 
     public static void main(String[] args) {
-        Animal myCat = new Cat("Like", "orange", 1);
-        Animal myDog = new Dog("Bim", "black", 5);
-        Animal mySecondCat = new Cat("Dina", "brown", 3);
-        Animal mySecondDog = new Dog("Bobi", "white", 8);
+        Animal myCat = new Cat("Like", "orange", 1, 100);
+        Animal myDog = new Dog("Bim", "black", 5, 500);
+        Animal mySecondCat = new Cat("Dina", "brown", 3, 300);
+        Animal mySecondDog = new Dog("Bobi", "white", 8, 600);
 
         myCat.run(200);
         myCat.swim(50);
         myDog.run(500);
         myDog.swim(10);
-        mySecondCat.run(300);
+        mySecondCat.run(200);
         mySecondCat.swim(40);
-        mySecondDog.run(600);
+        mySecondDog.run(500);
         mySecondDog.swim(50);
 
         Animal[] zoo = {
